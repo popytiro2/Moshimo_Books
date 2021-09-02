@@ -8,6 +8,8 @@
 	<string>もしもBooks</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>このアプリはこのスマホのライブラリに画像を保存するために権限が必要です</string>
 	<key>CFBundleIdentifier</key>
 	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>

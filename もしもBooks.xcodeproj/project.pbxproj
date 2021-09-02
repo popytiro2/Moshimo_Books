@@ -16,6 +16,8 @@
 		4836EE7926D9C8DC002D9B34 /* BarCodeScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4836EE7826D9C8DC002D9B34 /* BarCodeScanner.swift */; };
 		4836EE7B26D9CCDC002D9B34 /* BookSearchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4836EE7A26D9CCDC002D9B34 /* BookSearchManager.swift */; };
 		4836EE7D26D9CCF8002D9B34 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4836EE7C26D9CCF8002D9B34 /* Book.swift */; };
+		486374B226E0618900720896 /* QRCodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486374B126E0618800720896 /* QRCodeGenerator.swift */; };
+		486374B426E0694A00720896 /* ImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486374B326E0694A00720896 /* ImageSaver.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		4836EE7826D9C8DC002D9B34 /* BarCodeScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarCodeScanner.swift; sourceTree = "<group>"; };
 		4836EE7A26D9CCDC002D9B34 /* BookSearchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookSearchManager.swift; sourceTree = "<group>"; };
 		4836EE7C26D9CCF8002D9B34 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		486374B126E0618800720896 /* QRCodeGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeGenerator.swift; sourceTree = "<group>"; };
+		486374B326E0694A00720896 /* ImageSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSaver.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 			children = (
 				4836EE4D26D9C6BA002D9B34 /* BookInfoApp.swift */,
 				4836EE4F26D9C6BA002D9B34 /* ContentView.swift */,
+				486374B126E0618800720896 /* QRCodeGenerator.swift */,
+				486374B326E0694A00720896 /* ImageSaver.swift */,
 				4836EE7826D9C8DC002D9B34 /* BarCodeScanner.swift */,
 				4836EE7A26D9CCDC002D9B34 /* BookSearchManager.swift */,
 				4836EE7C26D9CCF8002D9B34 /* Book.swift */,
@@ -269,7 +275,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4836EE5026D9C6BA002D9B34 /* ContentView.swift in Sources */,
+				486374B226E0618900720896 /* QRCodeGenerator.swift in Sources */,
 				4836EE4E26D9C6BA002D9B34 /* BookInfoApp.swift in Sources */,
+				486374B426E0694A00720896 /* ImageSaver.swift in Sources */,
 				4836EE7B26D9CCDC002D9B34 /* BookSearchManager.swift in Sources */,
 				4836EE7D26D9CCF8002D9B34 /* Book.swift in Sources */,
 				4836EE7926D9C8DC002D9B34 /* BarCodeScanner.swift in Sources */,
